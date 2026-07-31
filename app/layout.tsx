@@ -41,7 +41,10 @@ export default function RootLayout({
                 <Link href="/grade3" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">3학년</Link>
               </li>
               <li>
-                <Link href="/signatures" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all text-yellow-200">선언문 서명</Link>
+                <Link href="/kids" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all text-yellow-200">아이들</Link>
+              </li>
+              <li>
+                <Link href="/chat" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all text-yellow-200">AI 선생님</Link>
               </li>
             </ul>
           </nav>
