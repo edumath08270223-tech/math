@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nanum_Pen_Script } from "next/font/google";
 import { Calculator } from "lucide-react";
+import Link from "next/link";
 import "./globals.css";
 
 const nanumPen = Nanum_Pen_Script({
@@ -24,15 +25,21 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-teal-900 text-white font-nanum text-2xl selection:bg-yellow-300 selection:text-teal-900">
         {/* Header (Analog Chalkboard Style) */}
         <header className="border-b-2 border-dashed border-white/30 p-6 flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
             <Calculator className="w-8 h-8 text-yellow-300" />
             <span className="text-4xl text-yellow-300 tracking-wider">수학교실</span>
-          </div>
+          </Link>
           <nav>
             <ul className="flex gap-6 text-2xl text-white/80">
-              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">1학년</li>
-              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">2학년</li>
-              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">3학년</li>
+              <li>
+                <Link href="/grade1" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">1학년</Link>
+              </li>
+              <li>
+                <Link href="/grade2" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">2학년</Link>
+              </li>
+              <li>
+                <Link href="/grade3" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">3학년</Link>
+              </li>
             </ul>
           </nav>
         </header>
