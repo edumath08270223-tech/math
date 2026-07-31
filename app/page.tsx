@@ -25,6 +25,9 @@ export default function Home() {
           <Link href="/kids" className="flex items-center justify-center h-32 bg-transparent border-4 border-dashed border-yellow-300 text-yellow-300 text-5xl rounded-xl hover:bg-yellow-300 hover:text-teal-900 transition-all duration-300 transform hover:scale-105 cursor-pointer shadow-[4px_4px_0_rgba(255,255,255,0.2)] font-nanum">
             아이들
           </Link>
+          <Link href="/chat" className="md:col-span-2 flex items-center justify-center h-32 bg-transparent border-4 border-dashed border-white text-white text-5xl rounded-xl hover:bg-white hover:text-teal-900 transition-all duration-300 transform hover:scale-105 cursor-pointer shadow-[4px_4px_0_rgba(255,255,255,0.2)] font-nanum">
+            👨‍🏫 AI 수학 선생님
+          </Link>
         </div>
       </div>
     </div>
