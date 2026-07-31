@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme inline {
+  --font-nanum: var(--font-nanum-pen);
+}
+
+body {
+  /* No custom background here as we handle it in layout.tsx */
+}
