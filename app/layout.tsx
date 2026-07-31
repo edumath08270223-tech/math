@@ -40,6 +40,9 @@ export default function RootLayout({
               <li>
                 <Link href="/grade3" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">3학년</Link>
               </li>
+              <li>
+                <Link href="/signatures" className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all text-yellow-200">선언문 서명</Link>
+              </li>
             </ul>
           </nav>
         </header>
