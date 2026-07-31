@@ -85,7 +85,7 @@ export default function KidsPage() {
         </p>
 
         {/* 문제 영역 */}
-        <div className="text-7xl text-white my-8 font-mono tracking-widest bg-black/20 p-8 rounded-xl shadow-inner text-center w-full max-w-2xl break-words">
+        <div className="text-4xl md:text-5xl text-white my-8 font-mono tracking-widest bg-black/20 p-8 rounded-xl shadow-inner text-center w-full max-w-2xl break-words">
           {problem ? problem.question : "준비 중..."} = ?
         </div>
 
