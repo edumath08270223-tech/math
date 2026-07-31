@@ -30,8 +30,9 @@ export default function RootLayout({
           </div>
           <nav>
             <ul className="flex gap-6 text-2xl text-white/80">
-              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">수업소개</li>
-              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">과제제출</li>
+              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">1학년</li>
+              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">2학년</li>
+              <li className="hover:text-white hover:underline decoration-wavy cursor-pointer transition-all">3학년</li>
             </ul>
           </nav>
         </header>
